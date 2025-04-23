@@ -1,0 +1,3 @@
+C:/Users/Vlais/OneDrive/Desktop/opi_prakt_7/build/CMakeFiles/Tic-tac-toe.dir
+C:/Users/Vlais/OneDrive/Desktop/opi_prakt_7/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Vlais/OneDrive/Desktop/opi_prakt_7/build/CMakeFiles/ZERO_CHECK.dir

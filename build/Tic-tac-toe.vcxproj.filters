@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\create_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\load_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\load_names.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\save_params.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\load_stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\save_stat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\config_params.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\show_stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\display_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\is_valid_move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\check_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\is_board_full.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\start_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Vlais\OneDrive\Desktop\opi_prakt_7\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9928E938-BECE-3110-8A17-D93C104E40AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
