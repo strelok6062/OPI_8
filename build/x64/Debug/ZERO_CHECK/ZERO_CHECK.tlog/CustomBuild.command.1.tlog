@@ -1,6 +1,6 @@
-^C:\USERS\VLAIS\ONEDRIVE\DESKTOP\OPI_PRAKT_7\BUILD\CMAKEFILES\DB0C3F657ADA1D4497084351F934BC75\GENERATE.STAMP.RULE
+^C:\USERS\VLAIS\ONEDRIVE\DESKTOP\OPI_PRAKT_7 — КОПИЯ\BUILD\CMAKEFILES\49A0F9FCCAF8865A7C75B4729609D2AA\GENERATE.STAMP.RULE
 setlocal
-"D:\vs code\bin\cmake.exe" -SC:/Users/Vlais/OneDrive/Desktop/opi_prakt_7 -BC:/Users/Vlais/OneDrive/Desktop/opi_prakt_7/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Vlais/OneDrive/Desktop/opi_prakt_7/build/Tic-tac-toe.sln
+"D:\vs code\bin\cmake.exe" "-SC:/Users/Vlais/OneDrive/Desktop/opi_prakt_7 — копия" "-BC:/Users/Vlais/OneDrive/Desktop/opi_prakt_7 — копия/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Vlais/OneDrive/Desktop/opi_prakt_7 — копия/build/TicTacToe.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

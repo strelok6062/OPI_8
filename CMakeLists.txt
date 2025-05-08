@@ -1,28 +1,41 @@
 cmake_minimum_required(VERSION 3.10)
+project(TicTacToe)
 
-project(Tic-tac-toe)
+# Опция для выбора типа библиотеки
+option(USE_SHARED "Build shared library instead of static" OFF)
 
-set(SOME_CACHE_VALUE CACHE STRING "Hello world")
+# Выводим в консоль тип библиотеки
+message(STATUS "USE_SHARED: ${USE_SHARED}")
 
-message("${GLOBE}")
-message("${PROJECT_NAME}")
-message("Some value here -> ${SOME_CACHE_VALUE}")
-
-set(GLOBE
-    main.cpp
-    create_file.cpp
-    load_size.cpp
-    load_names.cpp
-    save_params.cpp
-    load_stats.cpp
-    save_stat.cpp
-    config_params.cpp
-    show_stats.cpp
-    display_board.cpp
-    is_valid_move.cpp
-    check_win.cpp
-    is_board_full.cpp
-    start_game.cpp
+# Все исходники библиотеки
+set(SOURCES
+    lib/create_file.cpp
+    lib/load_size.cpp
+    lib/load_names.cpp
+    lib/save_params.cpp
+    lib/load_stats.cpp
+    lib/save_stat.cpp
+    lib/config_params.cpp
+    lib/show_stats.cpp
+    lib/display_board.cpp
+    lib/is_valid_move.cpp
+    lib/check_win.cpp
+    lib/is_board_full.cpp
+    lib/start_game.cpp
 )
 
-add_executable(${PROJECT_NAME} ${GLOBE})
+# Создание библиотеки
+if(USE_SHARED)
+    add_library(game SHARED ${SOURCES})
+else()
+    add_library(game STATIC ${SOURCES})
+endif()
+
+# Подключение заголовков (предполагается, что .h тоже в lib/)
+target_include_directories(game PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/lib)
+
+# Главный исполняемый файл
+add_executable(tictactoe main.cpp)
+
+# Линкуем библиотеку к main.cpp
+target_link_libraries(tictactoe PRIVATE game)

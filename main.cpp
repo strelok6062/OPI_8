@@ -1,8 +1,8 @@
-#include "create_file.hpp"
-#include "config_params.hpp"
-#include "show_stats.hpp"
-#include "start_game.hpp"
-#include "constants.hpp"
+#include "lib/create_file.hpp"
+#include "lib/start_game.hpp"
+#include "lib/config_params.hpp"
+#include "lib/show_stats.hpp"
+#include "lib/constants.hpp"
 #include <iostream>
 #include <limits>
 
